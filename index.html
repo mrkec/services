@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apni agency</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Work+Sans&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+      }
+      body {
+        font-family: "Baloo 2";
+      }
+      section {
+        padding: 0 25px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* align-items: center; */
+      }
+      .left {
+        flex: 1 1 70%;
+      }
+      .right {
+        flex: 1 1 30%;
+      }
+      ul {
+        display: flex;
+        gap: 23px;
+      }
+      a {
+        text-decoration: none;
+      }
+      li {
+        list-style: none;
+        cursor: pointer;
+        /* text-align: end; */
+      }
+      .img {
+        /* margin-top: 10px; */
+        /* border: 2px  solid black; */
+        border-radius: 40%;
+        background-color: rgb(246, 243, 243);
+        /* background-color: red; */
+      }
+      img {
+        width: 280px;
+        height: 300px;
+        border-radius: 30%;
+        /* padding-bottom:34px ; */
+        /* padding-left:20px; */
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+      }
+      .content {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        padding: 34px;
+      }
+      button {
+        padding: 10px 15px;
+        border: none;
+        background-color: orangered;
+        color: #fff;
+      }
+      .services {
+        text-align: center;
+      }
+      .services h4 {
+        font-size: 20px;
+      }
+      .cardContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      .card {
+        flex: 0 0 20%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+        /* height: auto; */
+        padding: 4px 53px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .solution {
+        margin-top: 43px;
+        background-color: blueviolet;
+      }
+      .solutionContainer {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .rightContainer .simpleSolution h5 {
+        font-size: 23px;
+        color: #fff;
+        text-align: center;
+        padding: 23px;
+      }
+      .rightContainer .simpleSolution p {
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        /* padding: 23px; */
+      }
+      .leftContainer {
+        flex: 1 1 30%;
+      }
+      .rightContainer {
+        flex: 1 1 70%;
+      }
+      .contact,.consult,.placeorder,.payment {
+        font-size: 13px;
+        color: #fff;
+        padding: 0 43px;
+        position: relative;
+        /* text-align: center; */
+      }
+      .contact::before {
+        content: "1";
+        position: absolute;
+        /* background-color: red; */
+        border: 2px solid white;
+        padding: 4px;
+        top: 0px;
+        left: 0px;
+        width: 12px;
+        height: 15px;
+        border-radius: 31px;
+        text-align: center;
+        margin: 4px;
+        /* pa */
+      }
+      
+      .consult::before {
+        content: "2";
+        position: absolute;
+        /* background-color: red; */
+        border: 2px solid white;
+        padding: 4px;
+        top: 0px;
+        left: 0px;
+        width: 12px;
+        height: 15px;
+        border-radius: 31px;
+        text-align: center;
+        margin: 4px;
+        /* pa */
+      }
+      .placeorder::before {
+        content: "3";
+        position: absolute;
+        /* background-color: red; */
+        border: 2px solid white;
+        padding: 4px;
+        top: 0px;
+        left: 0px;
+        width: 12px;
+        height: 15px;
+        border-radius: 31px;
+        text-align: center;
+        margin: 4px;
+        /* pa */
+      }
+      .payment::before {
+        content: "4";
+        position: absolute;
+        /* background-color: red; */
+        border: 2px solid white;
+        padding: 4px;
+        top: 0px;
+        left: 0px;
+        width: 12px;
+        height: 15px;
+        border-radius: 31px;
+        text-align: center;
+        margin: 4px;
+        /* pa */
+      }
+      .fa{
+        font-size: 23px;
+        color: blue;
+
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="left">
+          <a href="">Bussinessit</a>
+          <div class="content">
+            <div class="paraContent">
+              <h1>
+                Lorem ipsum dolor, sit amet consectetur <br />
+                adipisicing elit. Repellat, eaque.
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate, cupiditate! Animi, cum voluptate quidem adipisci
+                illum odit est officiis. Iure voluptas earum provident
+                recusandae quia odit ut explicabo, repellendus voluptatum, sequi
+                a rem odio itaque tempore dolor adipisci nihil? Impedit quia
+                similique voluptatem quos porro!
+              </p>
+              <button>Join Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>Gallery</li>
+            </ul>
+          </nav>
+          <div class="img">
+            <img src="com.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <h4>We provide the best services</h4>
+        <div class="cardContainer">
+          <div class="card">
+            <div class="icons">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="heading">
+              <h3>SEO/SEM</h3>
+            </div>
+            <div class="cardContent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                fugit sint dolor!
+                
+              </p>
+            </div>
+            <div class="anchor">
+              <a href="">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icons">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="heading">
+              <h3>SEO/SEM</h3>
+            </div>
+            <div class="cardContent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                fugit sint dolor!
+              </p>
+            </div>
+            <div class="anchor">
+              <a href="">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icons">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="heading">
+              <h3>SEO/SEM</h3>
+            </div>
+            <div class="cardContent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                fugit sint dolor!
+              </p>
+            </div>
+            <div class="anchor">
+              <a href="">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icons">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="heading">
+              <h3>SEO/SEM</h3>
+            </div>
+            <div class="cardContent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                fugit sint dolor!
+              </p>
+            </div>
+            <div class="anchor">
+              <a href="">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icons">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="heading">
+              <h3>SEO/SEM</h3>
+            </div>
+            <div class="cardContent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                fugit sint dolor!
+              </p>
+            </div>
+            <div class="anchor">
+              <a href="">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icons">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="heading">
+              <h3>SEO/SEM</h3>
+            </div>
+            <div class="cardContent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                fugit sint dolor!
+              </p>
+            </div>
+            <div class="anchor">
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="solution">
+      <div class="solutionContainer">
+        <div class="leftContainer">
+          <div class="img">
+            <img src="shoes.jpg" alt="" />
+          </div>
+        </div>
+        <div class="rightContainer">
+          <div class="simpleSolution">
+            <h5>Simple Solution</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+              exercitationem vel praesentium sequi nesciunt! Vitae nemo nam iste
+              nobis rem fugiat quas nesciunt!
+            </p>
+          </div>
+          <div class="contact">
+            <h3>Contact Us</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              deleniti qui maiores.
+            </p>
+          </div>
+          <div class="consult">
+            <h3>Consult</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              deleniti qui maiores.
+            </p>
+          </div>
+          <div class="placeorder">
+            <h3>Contact Us</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              deleniti qui maiores.
+            </p>
+          </div>
+          <div class="payment">
+            <h3>Contact Us</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              deleniti qui maiores.
+            </p>
+          </div>
+          <!-- <div class="contact">
+            <h3>Contact Us</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              deleniti qui maiores.
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
